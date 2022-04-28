@@ -1,0 +1,55 @@
+.c1{
+    display: inline-block;
+  }
+  .c2{
+    display: inline-block;
+  }
+  .c3{
+    display: inline-block;
+  }
+  .c4{
+    display: inline-block;
+  }
+
+h3 .type{
+    font-style: italic;
+    font-size: 25px;
+    overflow: hidden;
+    white-space: nowrap; 
+    width: 0;
+    animation: 
+      typing 3s steps(25, end) forwards;
+}
+h3 .type2{
+    font-style: italic;
+    font-size: 25px; 
+    overflow: hidden;
+    white-space: nowrap; 
+    width: 0;
+    animation: 
+      typing 3s steps(25, end) forwards;
+    animation-delay: 3s;
+}
+h3 .type3{
+    font-style: italic;
+    font-size: 25px; 
+    overflow: hidden;
+    white-space: nowrap; 
+    width: 0;
+    animation: 
+      typing 3s steps(25, end) forwards;
+    animation-delay: 6s;
+}
+
+.typewrite{
+  color: #EEEEEE;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+@keyframes blink {
+  from { border-color: transparent }
+  to { border-color: orange; }
+}

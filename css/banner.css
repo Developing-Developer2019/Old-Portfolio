@@ -1,0 +1,39 @@
+.bannerContainer{
+    position: relative;
+    padding: 50px;
+    width: 100vw;
+    height: 100px;
+    background-color: rgb(155, 155, 155);
+}
+
+.bannerText{
+    padding: 12px;
+}
+
+.closeBanner{
+    position: absolute;
+    top: 65px;
+    right: 65px;
+}
+
+@media only screen and (max-width: 600px) {
+    .bannerContainer{
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 150px;
+        padding: 50px 40px 0px 40px;
+    }
+
+    .bannerText{
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .closeBanner{
+        position: absolute;
+        top: 90px;
+        right: 20px;
+    }
+  }

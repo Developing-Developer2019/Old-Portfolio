@@ -1,0 +1,49 @@
+.heroContainer{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+
+.heroImage{
+    height: 25vh;
+    border-radius: 50%;
+    outline: 8px solid #EEEEEE;
+    border: 8px solid #393E46;
+}
+
+.heroImage:before{
+    border: 5px solid #393E46;
+}
+
+.heroName{
+    font-size: 50px;
+    text-align: center;
+}
+
+.heroTitle{
+    font-size: 25px;
+    text-align: center;
+}
+
+.heroContent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heroContentIcons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+}
+
+.heroContent .icon{
+    font-size: 40px;
+    color: #EEEEEE;
+}
+
+.iconSpacer{
+    padding: 20px 20px 0 20px;
+}

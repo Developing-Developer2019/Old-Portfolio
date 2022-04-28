@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="javascript" href="js/main.js">
+  <script src="https://kit.fontawesome.com/0126994918.js" crossorigin="anonymous"></script>
+  <title>MCWB - Dev</title>
+</head>
+
+<body>
+
+  <header id="navbar">
+    <div id="brand"><a href="#heroContainer">MCWB-DEV</a></div>
+    <nav>
+      <ul>
+        <li><a href="#indexWaypoint">&lt;/index&gt;</a></li>
+        <li><a href="#aboutPage">&lt;/aboutMe&gt;</a></li>
+        <li><a href="#portfolioPage">&lt;/portfolioPage&gt;</a></li>
+        <li><a href="#contactPage">&lt;/contactMe&gt;</a></li>
+      </ul>
+    </nav>
+
+    <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
+      <div class="bar1"></div>
+      <div class="bar2"></div>
+      <div class="bar3"></div>
+      <ul class="mobile-menu">
+        <li><a href="#indexWaypoint">&lt;/index&gt;</a></li>
+        <li><a href="#aboutPage">&lt;/aboutMe&gt;</a></li>
+        <li><a href="#portfolioPage">&lt;/portfolioPage&gt;</a></li>
+        <li><a href="#contactPage">&lt;/contactMe&gt;</a></li>
+        <li><i class="fa-solid fa-phone"></i>
+          <a href="tel:07851177788" target="_blank">Contact phone</a>
+        </li>
+      </ul>
+    </div>
+  </header>
+
+  <div id="indexWaypoint"></div>
+
+  <!-- BANNER -->
+  <div class="bannerContainer" id="bannerContainer">
+    <p class="bannerText">This site is under construction, it's an ongoing journey and an insight into my creation
+      process.</p>
+    <span class="closeBanner" id="closeBanner" onclick="closeBanner()"><i class="fa fa-x"></i></span>
+  </div>
+
+  <!-- HERO -->
+  <div class="heroContainer containerContent" id="heroContainer">
+    <div class="heroContent">
+      <img src="img/Me.jpg" class="heroImage">
+    </div>
+    <div class="heroContent">
+      <p class="heroName">Marvin Brereton</p>
+    </div>
+    <div class="heroContent">
+      <p>
+        <a href="" class="typewrite heroTitle" data-period="2000"
+          data-type='[ "C# Junior Developer. ", "SQL Knowledge." , "Azure Experience." , "Exposure to HTML, CSS and JavaScript/TypeScript.", "Loving father of one." ]'>
+          <span class="wrap"></span></a>
+      </p>
+    </div>
+    <div class="heroContent">
+      <a href="https://www.linkedin.com/in/marvin-brereton/" target="_blank"><i class="icon fa fa-linkedin"></i></a>
+      <span class="iconSpacer"></span>
+      <a href="https://github.com/Developing-Developer2019" target="_blank"><i class="icon fa fa-github"></i></a>
+      <span class="iconSpacer"></span>
+      <a href="dist/CVApril2022.pdf" target="_blank"><i class="icon fa fa-c"></i><i class="icon fa fa-v"></i></a>
+    </div>
+  </div>
+
+  <div class="containerSpacer containerDark" id="aboutPage"></div>
+
+  <div class="containerContent containerLight">
+    <div>
+      <!-- ABOUT ME -->
+      <p class="containerTitle marginLeft10">> ABOUT ME</p>
+    </div>
+  </div>
+
+  <div class="containerSpacer containerLight" id="portfolioPage"></div>
+
+  <div class="containerContent containerDark">
+    <div>
+      <!-- PORTFOLIO -->
+      <p class="containerTitle marginLeft10">> PORTFOLIO</p>
+    </div>
+  </div>
+
+  <div class="containerSpacer containerDark" id="contactPage"></div>
+
+  <div class="containerContent containerLight">
+      <!-- CONTACT -->
+      <p class="containerTitle marginLeft10">> CONTACT ME</p>
+
+      <div class="contactContent">
+        <div class="contactContainer">
+          <div class="contactForm">
+            <form action="https://formsubmit.co/46d345f8baa7bc65e4e359fbf661c625" method="POST">
+              <table class="borderGreen">
+                <tr>
+                  <th class="borderBlue"><span>Full Name:</span></th>
+                  <td class="borderRed"><input type="text" placeholder="Required" name="name" required></td>
+                </tr>
+                <tr>
+                  <th class="borderBlue">Email Address:</th>
+                  <td class="borderRed"><input type="email" placeholder="Required" name="email" required></td>
+                </tr>
+                <tr>
+                  <th class="borderBlue">Phone Number:</th>
+                  <td class="borderRed"><input type="number" placeholder="(Optional) " name="number"></td>
+                </tr>
+                <tr>
+                  <th class="borderBlue">Message:</th>
+                  <td class="borderRed"><textarea rows="6" placeholder="Required" name="textarea" required></textarea></td>
+                </tr>
+                <input type="hidden" name="_next" value="https://www.mcwb-dev.co.uk">
+                <input type="text" name="_honey" style="display:none">
+                <tr>
+                  <th></th>
+                  <td><button class="contactSendBtn" type="submit">Send</button></td>
+                </tr>
+              </table>
+            </form>
+          </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="containerSpacer containerLight"></div>
+
+  <section>
+    <div class="footer containerDark" id="footer"></div>
+  </section>
+
+  <script src="js/main.js"></script>
+</body>
+
+</html>

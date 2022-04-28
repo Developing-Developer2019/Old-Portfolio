@@ -1,0 +1,17 @@
+.disabled {
+    background: #ccc;
+    pointer-events: none;
+}
+
+.font800{
+    font-weight: 800;
+}
+
+.textCentre{
+    text-align: center;
+}
+
+.textInfo{
+    font-style: italic;
+    font-size: .75em;
+}
